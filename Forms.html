@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(227, 51, 7);" >
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> 
+                <img src="IMG\icons8-recipe-book-64.png" alt="Bootstrap" width="50" height="54" > 
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Receitas</a>
+              <a class="nav-link" href="#">Registro</a>
+              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#">Favoritos</a>
+            </div>
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+                <img src="IMG\loupe.png" alt="" width="30" height="30"></button>
+        </form>
+    </nav>
+    <div>
+        <form>
+          <label for="Nome da Receita" class="form-label">Nome da Receita</label>
+          <input type="name" class="form-control" id="Nome da Receita">
+        <div> 
+          <label>Quantidades</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Quantidade</option>
+            <option value="1">1 Xícara</option>
+            <option value="2">1/2 Xícara</option>
+            <option value="3">1/4 Xícara</option>
+            <option value="4">1 Colher de sopa</option>
+            <option value="5">1 Colher de chá</option>
+            <option value="6">1 Colher de café</option>
+          </select>
+        </div>
+          <label for="Ingrediente" class="form-label">Ingrediente</label>
+          <input type="name" class="form-control" id="Ingrediente">
+          <div class="mb-3">
+            <label for="Modo de Preparo" class="form-label">Modo de Preparo</label>
+            <textarea class="form-control" id="Modo de Preparo" rows="3"></textarea>
+          </div>
+        </form>
+    </div>  
+</body>
+</html>
